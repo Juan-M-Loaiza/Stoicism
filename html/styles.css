@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4c4;
+background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23181616' fill-opacity='0.57' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.title-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    height: 70px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.title-one h2 {
+    font-family: 'Prosto One', cursive;
+    font-size: 55px;
+    margin: 0;
+}
+
+.info-section {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    padding: 25px;
+    width: 70%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.title-two {
+    height: 100px;
+    margin-top: 30px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px; 
+}
+    
+.title-two h1 {
+    font-family: 'Prosto One', cursive;
+    font-size: 60px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.container-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    width: 100%;
+    height: 1100px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-top: 19px;   
+}
+
+#carouselExampleCaptions{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 10px;
+    
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 1000px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.d-block {
+    width: 100px;
+    height: 1000px;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    border: 2px solid black;
+    color: black;
+    background-color: #979A9A;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    font-family: 'Prosto One', cursive;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+.container-text {
+    background-color: bisque;
+    margin-right: 100px;
+    border-radius: 15px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.container-text h1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.accordion {
+    width: 90%;
+    
+}
+
+.accordion-header {
+    font-family: 'Prosto One', cursive;   
+}
+
+.accordion-body strong {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.before-accordion {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2000px;
+    margin-left: 20px;
+}
+
+.biografias {
+    height: 100px;
+    margin-top: 30px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.biografias h1 {
+    font-family: 'Prosto One', cursive;
+    font-size: 60px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.accordion-body strong a {
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: gray;
+    padding: 1.5px;
+    font-family: sans-serif;
+}
+
+.accordion-body strong a:hover {
+    color: black;
+    font-size: 22px;
+    
+}
